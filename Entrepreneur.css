@@ -1,0 +1,24 @@
+body {
+    padding-top: 20px;
+}
+
+.Filter {
+    padding: 20px;
+    font: 1.2em sans-serif;
+}
+
+.small {
+    transition: 1s ease-in-out;
+}
+
+.others {
+    transition: 1s ease-in-out;
+}
+
+.all {
+    transition: 1s ease-in-out;
+}
+
+.hidee {
+    display: none;
+}
