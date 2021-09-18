@@ -1,0 +1,52 @@
+body {
+    padding-top: 20px;
+}
+
+.Filter {
+    padding: 20px;
+    font: 1.2em sans-serif;
+}
+
+.small {
+    transition: 1s ease-in-out;
+}
+
+.others {
+    transition: 1s ease-in-out;
+}
+
+.all {
+    transition: 1s ease-in-out;
+}
+
+.hidee {
+    display: none;
+}
+
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
